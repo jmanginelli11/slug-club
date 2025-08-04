@@ -1,6 +1,6 @@
 # Slug Club
 
-This repository power Slug Club RVA.
+This repository powers Slug Club RVA.
 
 ## Steps to Run Locally
 
