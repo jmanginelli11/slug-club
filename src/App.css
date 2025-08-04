@@ -51,8 +51,8 @@ body {
 }
 
 .circle {
-  height: 50vh;
-  width: 50vh;
+  height: 40vh;
+  width: 40vh;
   background-color: #699430;
   border-radius: 50%;
   filter: blur(80px);
