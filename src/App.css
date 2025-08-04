@@ -30,14 +30,14 @@ body {
     transform: scale(1);
   }
   to {
-    transform: scale(5);
+    transform: scale(10);
   }
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .circle {
     animation: circle-grow linear forwards;
-    animation-timeline: scroll();
+    animation-timeline: view();
   }
 }
 
@@ -51,11 +51,11 @@ body {
 }
 
 .circle {
-  height: 40vh;
-  width: 40vh;
+  height: 50px;
+  width: 50px;
   background-color: #699430;
   border-radius: 50%;
-  filter: blur(80px);
+  filter: blur(10px);
   z-index: 1;
   position: fixed;
 }
