@@ -34,12 +34,11 @@ body {
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
   .circle {
     animation: circle-grow linear forwards;
     animation-timeline: scroll();
   }
-}
+
 
 .logo-container {
   height: 100vh;
