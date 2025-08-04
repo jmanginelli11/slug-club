@@ -34,11 +34,10 @@ body {
   }
 }
 
-  .circle {
-    animation: circle-grow linear forwards;
-    animation-timeline: scroll();
-  }
-
+.circle {
+  animation: circle-grow linear forwards;
+  animation-timeline: scroll();
+}
 
 .logo-container {
   height: 100vh;
@@ -71,6 +70,6 @@ body {
   z-index: 3;
 }
 
-.bottom-spacer{
+.bottom-spacer {
   height: 35vh;
 }
