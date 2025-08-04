@@ -76,3 +76,9 @@ body {
   height: 35vh;
 }
 
+@media (max-width: 500px) {
+  .circle {
+    height: 50px;
+  width: 50px;
+  }
+}
