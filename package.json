@@ -2,7 +2,7 @@
   "name": "slug-club",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jmanginelli11.github.io/slug-club/",
+  "homepage": "https://slugclub.net",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -2,8 +2,12 @@
   margin: 0 auto;
 }
 body {
-    background-color: black;
+  background-color: black;
 
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
 }
 .container {
   position: relative;
@@ -16,15 +20,17 @@ body {
 .logo {
   width: 40vh;
   height: auto;
-  z-index: 3;
+  z-index: 2;
+  position: fixed;
+  margin-top: -30px;
 }
 
 @keyframes circle-grow {
   from {
-    transform: scaleX(1);
+    transform: scale(1);
   }
   to {
-    transform: scaleX(5);
+    transform: scale(5);
   }
 }
 
@@ -35,12 +41,44 @@ body {
   }
 }
 
+.logo-container {
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .circle {
-  height: 200px;
-  width: 200px;
+  height: 40vh;
+  width: 40vh;
   background-color: #699430;
   border-radius: 50%;
-  filter: blur(50px);
-  position: absolute;
+  filter: blur(80px);
   z-index: 1;
+  position: fixed;
 }
+
+.spacer {
+  height: 100vh;
+}
+
+.phone {
+  height: calc(50vh+100px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 3;
+}
+
+.bottom-spacer {
+  height: 35vh;
+}
+
+/* @media (max-width: 500px) {
+  .circle {
+    height: 50px;
+    width: 50px;
+  }
+} */
