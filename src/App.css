@@ -34,9 +34,11 @@ body {
   }
 }
 
-.circle {
-  animation: circle-grow linear forwards;
-  animation-timeline: scroll();
+@media (prefers-reduced-motion: no-preference) {
+  .circle {
+    animation: circle-grow linear forwards;
+    animation-timeline: scroll();
+  }
 }
 
 .logo-container {
@@ -49,8 +51,8 @@ body {
 }
 
 .circle {
-  height: 300px;
-  width: 300px;
+  height: 50vh;
+  width: 50vh;
   background-color: #699430;
   border-radius: 50%;
   filter: blur(80px);
@@ -70,6 +72,8 @@ body {
   z-index: 3;
 }
 
-.bottom-spacer {
+.bottom-spacer{
   height: 35vh;
 }
+
+@media ()
