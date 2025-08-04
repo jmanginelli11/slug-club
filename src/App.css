@@ -72,13 +72,13 @@ body {
   z-index: 3;
 }
 
-.bottom-spacer{
+.bottom-spacer {
   height: 35vh;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .circle {
     height: 50px;
-  width: 50px;
+    width: 50px;
   }
-}
+} */
