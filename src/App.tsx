@@ -10,7 +10,7 @@ function App() {
       <img className="logo" src={logo} />
       </div>
       <div className="spacer"/>
-      <div className="phone">(804) 396-4723</div>
+      <div className="phone">(804) 396-4934</div>
       <div className="bottom-spacer"/>
     </div>
   );
